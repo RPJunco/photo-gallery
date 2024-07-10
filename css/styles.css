@@ -9,6 +9,8 @@
     
     /*Main*/
     --container-fluid-bc: rgba(79, 79, 79, 0.533);
+    --link-main-c: gray;
+    --link-main-c-hover: gray;
 
 }
 
@@ -61,6 +63,10 @@ body{
     border-radius: 60px;
 }
 
+.header .container-fluid .bi-list {
+    display: none;
+}
+
 /* MAIN */
 
 
@@ -68,7 +74,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px 90px 0px 90px;
+    padding: 35px 90px;
     border: 1px solid var(--container-fluid-bc);
 }
 
@@ -76,13 +82,14 @@ body{
     padding: 0px 10px;
     margin: 5px;
     font-weight: 600;
-    color: gray;
+    font-size: 20px;
+    color: var(--link-main-c);
     text-decoration: none;
     transition: color 1.7s, border-bottom 1.7s;
 }
 
 .link-main:hover{
-    color: white;
+    color: var(--link-main-c-hover);
     border-bottom: 2px solid gray;
 }
 
