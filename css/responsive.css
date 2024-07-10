@@ -1,20 +1,35 @@
 @media screen and (max-width: 1920px) {
-
+    .logo {
+        width: 6vw;
+        height: 8vh;
+    }
 }
 
 @media screen and (max-width: 1440px) {
+    .logo {
+        width: 6vw;
+        height: 8vh;
+    }
     .main .container-fluid{
         padding: 30px 60px;
     }
 }
 
 @media screen and (max-width: 1280px) {
+    .logo {
+        width: 7vw;
+        height: 8vh;
+    }
     .main .container-fluid{
         padding: 30px 40px;
     }
 }
 
 @media screen and (max-width: 1024px) {
+    .logo {
+        width: 7vw;
+        height: 8vh;
+    }
     .main .container-fluid{
         padding: 25px 35px;
     }
