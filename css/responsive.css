@@ -56,7 +56,7 @@
     }
     .main .container-fluid{
         padding: 10px 30px;
-        margin-top: 10px;
+        margin: 10px 0px -10px 0px;
         border: 1px solid rgba(79, 79, 79, 0.233);
     }
     .galleryOne .row .column{
@@ -79,6 +79,10 @@
 }
 
 @media screen and (max-width:320px){
+    .header .container-fluid{
+        margin: 0px;
+        padding: 0px;
+    }
     .navbar button, .navbar input{
         display: none;
     }
@@ -89,9 +93,16 @@
         border: 2px solid #ccc;
         border-radius: 25px;
         padding: 5px;
+        margin: 10px;
+        transition: background-color 1.7s, color 1.7s;
+    }
+    .header .container-fluid .bi-list:hover{
+        background-color: #ccc;
+        color: #0a0b0c;
     }
     .main .container-fluid{
-        padding: 15px 15px;
+        padding: 20px 0px;
+        margin: 35px 0px -35px 0px;
     }
     .galleryTwo .row .column img {
         width: 70vw;
