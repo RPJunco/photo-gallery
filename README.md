@@ -19,9 +19,9 @@ El proyecto esta basado o inspirado en un diseño extraido completamente desde [
 - Bootstrap: Para facilitar el desarrollo web responsive, manteniendo un diseño coherente.
 
 ## ⭐ Caracteristicas del proyecto ⭐
-- Fidelidad al Diseño: Se ha prestado especial atención a replicar fielmente el diseño original de Behance, asegurando que todos los elementos visuales y de interfaz coincidan con el prototipo.
+- Fidelidad al Diseño: Se ha prestado especial atención a replicar fielmente el diseño original de Dribbble, asegurando que todos los elementos visuales y de interfaz coincidan con el prototipo.
 - Responsive Design: La página web está diseñada para ser responsive, es decir, se adapta a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia de usuario óptima tanto en dispositivos móviles como en pantallas de escritorio.
-- Interactividad Básica: Se han implementado algunos efectos interactivos utilizando CSS, como las transiciones, para mejorar la experiencia del usuario.
+- Interactividad Básica: Se han implementado algunos efectos interactivos utilizando CSS y Bootstrap, como las transiciones, para mejorar la experiencia del usuario.
 
 ## 🏛️ Estructura del Proyecto 🏛️
 - index.html - Contiene la estructura principal de la pagina web.
