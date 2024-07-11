@@ -46,17 +46,17 @@
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        border: 1px solid rgba(79, 79, 79, 0.533);
     }
     .d-flex{
-        border: none;
+        border: 1px solid white;
+        border-radius: 10px;
     }
     .logo-gallery{
         display: none;
     }
     .main .container-fluid{
         padding: 10px 30px;
-        margin: 10px 0px -10px 0px;
+        margin: 8px 0px -8px 0px;
         border: 1px solid rgba(79, 79, 79, 0.233);
     }
     .galleryOne .row .column{
@@ -82,6 +82,9 @@
     .header .container-fluid{
         margin: 0px;
         padding: 0px;
+    }
+    .d-flex {
+        border: none;
     }
     .navbar button, .navbar input{
         display: none;

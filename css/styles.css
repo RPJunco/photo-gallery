@@ -45,6 +45,7 @@ body{
 
 .navbar button, .navbar input {
     border: none;
+    border-radius: 10px;
     background-color: var(--navbar-bgc);
     font-weight: 300;
 }
