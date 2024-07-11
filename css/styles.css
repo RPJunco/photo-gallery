@@ -21,6 +21,7 @@ body{
 
 /* HEADER */
 .navbar {
+    padding: 0px;
     height: 10vh;
     background: var(--navbar-bgc);
     justify-content: space-evenly;

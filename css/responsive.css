@@ -91,11 +91,11 @@
     }
     .header .container-fluid .bi-list {
         display: block;
-        font-size: 17px;
+        font-size: 14px;
         color: #ccc;
         border: 2px solid #ccc;
         border-radius: 10px;
-        padding: 7px;
+        padding: 4px;
         margin: 0px;
         transition: background-color 1.7s, color 1.7s;
     }
@@ -105,7 +105,7 @@
     }
     .main .container-fluid{
         padding: 20px 0px;
-        margin: 35px 0px -35px 0px;
+        margin: 0px;
     }
     .galleryTwo .row .column img {
         width: 70vw;
